@@ -1,0 +1,35 @@
+# CODEOWNERS file for calendar-store-17
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-data @Armor-test/unit-search @Armor-test/team-logging
+
+# Directory ownership
+/extensions/ @Armor-test/grp-notifications @Armor-test/team-auth @Armor-test/squad-reporting
+/internal/ @Armor-test/team-content @Armor-test/grp-apps @Armor-test/grp-notifications
+/auth/ @Armor-test/squad-search @Armor-test/team-research @Armor-test/team-content
+/app/ @Armor-test/team-ux @Armor-test/unit-ux @Armor-test/grp-release
+/docs/ @Armor-test/unit-logging @Armor-test/squad-network
+/assets/ @Armor-test/dept-ui @Armor-test/unit-search
+/modules/ @Armor-test/dept-reliability @Armor-test/grp-payments
+/ui/ @Armor-test/grp-notifications @Armor-test/dept-qa
+/scripts/ @Armor-test/dept-frontend @Armor-test/dept-billing @Armor-test/grp-reporting
+/hooks/ @Armor-test/team-content @Armor-test/team-product
+/utils/ @Armor-test/dept-reliability @Armor-test/team-product @Armor-test/squad-automation
+/shared/ @Armor-test/team-ux @Armor-test/grp-sre
+/common/ @Armor-test/dept-frontend @Armor-test/squad-notifications
+
+# File type ownership
+*.toml @Armor-test/squad-security @Armor-test/grp-sre
+*.lock @Armor-test/dept-qa @Armor-test/dept-data
+*.kt @Armor-test/unit-mobile @Armor-test/team-support @Armor-test/team-architecture
+*.proto @Armor-test/grp-release @Armor-test/unit-search
+*.scala @Armor-test/team-research @Armor-test/squad-reporting @Armor-test/squad-notifications
+*.sql @Armor-test/team-core @Armor-test/dept-ui
+*.cpp @Armor-test/squad-notifications @Armor-test/squad-ui @Armor-test/unit-mobile
+*.properties @Armor-test/grp-reporting @Armor-test/grp-notifications
+*.graphql @Armor-test/grp-notifications @Armor-test/dept-database @Armor-test/dept-ui
+*.yml @Armor-test/squad-notifications @Armor-test/squad-automation @Armor-test/unit-ux
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
